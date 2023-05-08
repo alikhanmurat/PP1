@@ -1,0 +1,17 @@
+//QUIZ Task A
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	long long x;
+	cin >> x;
+	
+	if (x == 1){
+		cout << "0";
+	}else if (x % 2 == 0){
+		cout << x/2;
+	}else if (x % 2 != 0){
+		cout << x;
+	}
+	return 0;
+}
